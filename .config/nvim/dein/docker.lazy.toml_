@@ -1,0 +1,9 @@
+# BEGIN [ANSIBLE neovim-misc-config] plugins for docker.
+[[plugins]]
+repo = 'deoplete-plugins/deoplete-docker'
+on_ft = 'docker'
+
+[[plugins]]
+repo = 'ekalinin/Dockerfile.vim'
+on_ft = 'docker'
+# END [ANSIBLE neovim-misc-config] plugins for docker.

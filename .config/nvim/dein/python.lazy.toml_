@@ -1,0 +1,5 @@
+# BEGIN [ANSIBLE neovim-python-config] plugins for python.
+[[plugins]]
+repo = 'deoplete-plugins/deoplete-jedi'
+on_ft = 'python'
+# END [ANSIBLE neovim-python-config] plugins for python.
