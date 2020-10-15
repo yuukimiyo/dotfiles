@@ -45,8 +45,11 @@ alias vi='/usr/bin/nvim'
 # END ANSIBLE [neovim] add alias
 
 # local config
-set -U fish_user_paths /snap/bin $fish_user_paths
+# set -U fish_user_paths /snap/bin $fish_user_paths
+set -U fish_user_paths /snap/bin
+set -U fish_user_paths ~/.config/nvm/12.18.0/bin $fish_user_paths
 set -U fish_user_paths ~/bin $fish_user_paths
+# set -x NODE_PATH $HOME/.config/yarn/global/node_modules
 
 
 # BEGIN ANSIBLE [fish-golang] add path
